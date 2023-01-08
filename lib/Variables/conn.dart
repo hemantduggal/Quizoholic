@@ -1,0 +1,39 @@
+
+import 'package:flutter/material.dart';
+
+String webLink = "https://yermincurves.com/trustedmedia/";  //serverlink
+List<String> videoList=["https://scoodyboody.com//Videos//indian_hot_reels_18plus_CNwePTmHmbA.mp4","https://scoodyboody.com/Videos/indian_hot_reels_18plus_CNrcIByntv0.mp4","https://scoodyboody.com/Videos/hot.reelss_CGu3Q7CFC6n.mp4","https://scoodyboody.com/Videos/indian.hot.reels_CE4ebSOAX63.mp4","https://scoodyboody.com//Videos//indian.hot.reels_CE4d9E2Anzq.mp4","https://scoodyboody.com/Videos/hot.reelss_CHkkX27gOBc.mp4","https://scoodyboody.com/Videos/indian_hot_reels_18plus_CNweH6FnECh.mp4","https://scoodyboody.com/Videos/indian_hot_reels_18plus_CNweH6FnECh.mp4","https://scoodyboody.com/Videos/hot.reelss_CHfFmWFga92.mp4","https://scoodyboody.com/Videos/indian_hot_reels_18plus_CNweH6FnECh.mp4","https://scoodyboody.com/Videos/hot.reelss_CG4JQCKF_S0.mp4"];   //adsLinks
+Color boxBg = Colors.grey; //adsBoxColour
+Color boxInstallLabel = Colors.black; //adsBoxColour
+Color boxInstallBg = Colors.white; //adsBoxColour
+String selectedImageLink=""; //used to send the image for final projector
+String rateBtn=""; //other buttons
+String moreBtn=""; //other buttons
+String shareBtn=""; //other buttons
+String privacyBtn=""; //other buttons
+List<String> adsMainLinks = [];  //all website links here MUST be set
+List<String> homeBannerImages = [];  //homeBanner Images
+List<String> adsBannerGif = ["assets/images/creatives/1.png","assets/images/creatives/2.png","assets/images/creatives/3.png","assets/images/creatives/4.png","assets/images/creatives/5.png","assets/images/creatives/6.png","assets/images/creatives/7.png","assets/images/creatives/1.gif","assets/images/creatives/2.gif","assets/images/creatives/3.gif","assets/images/creatives/4.gif","assets/images/creatives/5.gif"];  //qureka banner desc
+List<String> adsBannerImages = ["assets/images/creatives/500X300_1.png","assets/images/creatives/500X300_2.png","assets/images/creatives/500X300_3.png","assets/images/creatives/500X300_4.png","assets/images/creatives/500X300_5.png","assets/images/creatives/500X300_6.png"];  //qureka banner link
+List<String> adsBannerTitle = ["Play Bollywood Quiz & Win 1500 Coins","Play & Win 2000 Coins","Qureka Lite/Play Game","Play & Win 2000 Coins.","Play & Win Coins Daily.","Win Coins By Playing Quiz","Play and get Coins Lucky Offer","Win Coins by Playing Quiz","Play Tech Quiz and Win coins","Win Coins Easily by playing","Play Simple Quiz to win Coins","Win Win WIn Unlimited Coins","Simple Quiz can reward with Huge Coins","Play Cricket Quiz & Get Upto 5,000 Coins","Play IPL Quiz & Win 10,000 Coins","Play Tech Quiz & Win 7,000 Coins","Easy to Win 5000 Coins","Play Fun Quiz & Win 50,000 Coins Rewards","Win Quiz & Win 20000 Coins Instantly","Play Maths Quiz & Win 12000 Coins","play Science Quiz & Win 14000 Coins"];  //qureka banner title
+List<String> adsBannerDesc = ["Quiz for 15,000 Coins calling you!!!","Quiz for 20,000 Coins calling you!!!","play easy quiz to win coins!!!","limited offer to win coins!!!","tech quiz can reward with 20000 coins!!!","Qureka Lite/Play Game","Play Quiz & Win Upto 50,000 Coins"];  //qureka banner desc
+List<String> adsLongBannerImages = ["assets/images/creatives/360X640_1.png","assets/images/creatives/360X640_2.png","assets/images/creatives/360X640_3.png","assets/images/creatives/360X640_4.png","assets/images/creatives/360X640_5.png"];  //qureka long banner link
+List<String> dailyTaskTimeLimits = ["1","2"]; //daily task
+int diamondLeft=0; //gameDiamond
+int quizLeft=0; //daily task
+int spinLeft=0; //daily task
+int scratchLeft=0; //daily task
+List<String> taskOfferList=[]; //daily task
+String onResumeWebsiteLink=""; //daily task
+String onResumeAddCoins="0"; //daily task
+String onResumeTaskNumber="0"; //daily task
+List<String> moreCoinsTaskList = []; //more coin screen
+bool dailyWinCoinCollected=false; //daily win task
+List<String> gamesIcons=["assets/images/theme/ii1.png","assets/images/theme/ii2.png","assets/images/theme/ii3.png","assets/images/theme/ii4.png","assets/images/theme/ii5.png","assets/images/theme/ii6.png","assets/images/theme/ii7.png","assets/images/theme/ii8.png","assets/images/theme/ii9.png","assets/images/theme/ii10.png","assets/images/theme/ii11.png","assets/images/theme/ii12.png","assets/images/theme/ii13.png","assets/images/theme/ii14.png","assets/images/theme/ii15.png","assets/images/theme/ii16.png","assets/images/theme/ii17.png","assets/images/theme/ii18.png","assets/images/theme/ii19.png","assets/images/theme/ii20.png"]; //game icons
+List<String> gamesBanner=[]; //game banners
+List<String> gameNames=["Rabbit Punch","Bottle Shoot","Cuby Zap","Pirate Hunt","Dead End","Air Hockey","Basketball","Groovy Ski","Cars","Pool & Ball","Crazy Runner","Zoo Run","Mad Shark","Scary Run","Panda Love","Strike Expert","Bubble Wipeout","Carrom Hero","Yummy Taco","Ludo Friends","Speedy Driving","Sit Sight","Jelly Slice","Juicy Dash","Pop Soap","Trap and Virus","Burger Time","Dashers","Fly Safe","Barn Dash","Breakfast Time"]; //game names
+List<String> gameCategories=["Action","Sports & Racing","Adventure","Shooting","Strategy","Racing","Puzzle & Logic","Arcade"]; //game categories
+List<int> gameNumbers = [2,2,1]; //number of games in category
+List<String> withdrawButtons = ["History","Instant Redeem"]; //Withdrawal Buttons
+List<String> otherAdsLinksList = [];
+List<String> quizList = "The import of crude oil and petroleum done from national oil companies of producer countries, which have a net exportable surplus of oil is by * Term contracts * Term tenders * Monthly tenders * All the above * The element common to all acids is * Hydrogen * Carbon * Sulphur * Oxygen * The groundwater can become confined between two impermeable layers. This type of enclosed water is called * Artesian * Confined groundwater * Unconfined groundwater * Artesian well * Which country will host the 2022 Women�s Cricket World Cup? * New Zealand * Australia * Sri Lanka * India * The largest gulf in the world is * Gulf of Mexico * Persian Gulf * Gulf of Carpentaria * Gulf of Mannar * What is Xu Xin famous for? * As a Chinese table tennis player * As a Chinese tennis player * As a Chinese badminton player * As a Chinese polo player * The most electronegative element among the following is * Fluorine * OxygeN * Bromine * Sodium * Dale Steyn and which other South African player made their Test debuts and their First Class debuts in the same match? * AB de Villiers * Andrew Hall * Boeta Dippennar * Jacques Rudolph * Ecology deals with * Relation between organisms and their environment * Cell formation * Birds * Tissues * The highest sand dunes are found is * The Sahara desert * The Atacama desert * The Kalahari desert * The Gobi desert".split('*');
