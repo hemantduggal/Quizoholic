@@ -1,2 +1,2 @@
 # Quizoholic
- megha quiz app
+ Hemant Duggal  quiz app
